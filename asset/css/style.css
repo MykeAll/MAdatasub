@@ -204,6 +204,42 @@ img {
 
 /* //SERVICES */
 
+/* CARD */
+.network img {
+    width: 40px;
+}
+
+.table {
+    display: grid;
+}
+
+.card-custom .card-custom-data {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-data {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-data {
+    cursor: pointer;
+    margin: 2px;
+    transform: scale(1.1);
+}
+/* 
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+} */
+
+/* //CARD */
 
 
 /* FOOTER */
@@ -300,6 +336,10 @@ footer {
         background-color: var(--color-base);
         width: 100%;
     }
+
+    /* .table {
+        display: grid;
+    } */
 
      /* BTN */
      /* .btn {
