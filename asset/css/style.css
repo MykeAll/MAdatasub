@@ -15,7 +15,9 @@
 
 
 body {
+    position: relative;
     background-color: var(--color-base2);
+    background-size: cover;
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
 }
@@ -62,6 +64,9 @@ img {
 
 .navbar .nav-link:active {
     columns: var(--color-brand);
+    color: var(--color-brand2);
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .logo {
